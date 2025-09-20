@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolams: Where Art Meets Mathematics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="min-h-screen bg-background">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <!-- Animated background pattern -->
+            <div class="background-pattern">
+                <svg class="kolam-pattern" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <pattern id="kolamGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                            <circle cx="20" cy="20" r="2" fill="#ea580c" opacity="0.6"/>
+                        </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#kolamGrid)"/>
+                    <g class="rotating-pattern">
+                        <circle cx="200" cy="200" r="80" fill="none" stroke="#ec4899" stroke-width="2" opacity="0.7"/>
+                        <circle cx="200" cy="200" r="60" fill="none" stroke="#eab308" stroke-width="2" opacity="0.8"/>
+                        <circle cx="200" cy="200" r="40" fill="none" stroke="#ea580c" stroke-width="2" opacity="0.9"/>
+                        <path d="M200,120 L280,200 L200,280 L120,200 Z" fill="none" stroke="#ec4899" stroke-width="2" opacity="0.6"/>
+                        <path d="M200,140 L260,200 L200,260 L140,200 Z" fill="none" stroke="#eab308" stroke-width="2" opacity="0.7"/>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="grid-overlay"></div>
+
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="text-primary">Kolams</span><br>
+                    <span class="text-foreground">Where Art Meets</span><br>
+                    <span class="text-green">Mathematics</span>
+                </h1>
+
+                <p class="hero-description">
+                    Discover the mesmerizing world of traditional Indian geometric art forms that seamlessly blend cultural
+                    heritage with mathematical precision and modern technology.
+                </p>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary glow-cyan">Explore Patterns</button>
+                    <button class="btn btn-outline glow-magenta">Learn Mathematics</button>
+                </div>
+            </div>
+
+            <div class="floating-shapes">
+                <div class="shape shape-1 glow-cyan"></div>
+                <div class="shape shape-2 glow-magenta"></div>
+                <div class="shape shape-3 glow-gold"></div>
+                <div class="shape shape-4 glow-gold"></div>
+            </div>
+        </section>
+
+        <!-- Cultural Section -->
+        <section class="cultural-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Cultural Heritage</h2>
+                    <p class="section-subtitle">The Sacred Art of Kolam</p>
+                </div>
+
+                <div class="cultural-grid">
+                    <div class="cultural-card">
+                        <div class="cultural-icon">
+                            <svg viewBox="0 0 100 100" class="icon">
+                                <circle cx="50" cy="50" r="30" fill="none" stroke="#ea580c" stroke-width="3"/>
+                                <circle cx="50" cy="50" r="20" fill="none" stroke="#ec4899" stroke-width="2"/>
+                                <circle cx="50" cy="50" r="10" fill="#eab308"/>
+                            </svg>
+                        </div>
+                        <h3>Daily Ritual</h3>
+                        <p>Every morning, women across South India create intricate Kolam patterns at their doorsteps, welcoming prosperity and warding off evil spirits.</p>
+                    </div>
+
+                    <div class="cultural-card">
+                        <div class="cultural-icon">
+                            <svg viewBox="0 0 100 100" class="icon">
+                                <path d="M20,50 Q50,20 80,50 Q50,80 20,50" fill="none" stroke="#ec4899" stroke-width="3"/>
+                                <path d="M30,50 Q50,30 70,50 Q50,70 30,50" fill="none" stroke="#eab308" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Spiritual Significance</h3>
+                        <p>These geometric patterns represent the cosmic order, connecting the earthly realm with divine harmony through sacred geometry.</p>
+                    </div>
+
+                    <div class="cultural-card">
+                        <div class="cultural-icon">
+                            <svg viewBox="0 0 100 100" class="icon">
+                                <rect x="25" y="25" width="50" height="50" fill="none" stroke="#ea580c" stroke-width="3" transform="rotate(45 50 50)"/>
+                                <rect x="35" y="35" width="30" height="30" fill="none" stroke="#ec4899" stroke-width="2" transform="rotate(45 50 50)"/>
+                            </svg>
+                        </div>
+                        <h3>Generational Wisdom</h3>
+                        <p>Passed down through generations, Kolam art preserves ancient mathematical knowledge and cultural traditions in living form.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mathematics Section -->
+        <section class="mathematics-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Mathematical Foundation</h2>
+                    <p class="section-subtitle">Geometry in Motion</p>
+                </div>
+
+                <div class="math-grid">
+                    <div class="math-card">
+                        <h3>Grid Systems</h3>
+                        <div class="math-visual">
+                            <svg viewBox="0 0 200 200" class="math-svg">
+                                <defs>
+                                    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ea580c" stroke-width="1" opacity="0.5"/>
+                                    </pattern>
+                                </defs>
+                                <rect width="100%" height="100%" fill="url(#grid)"/>
+                                <circle cx="100" cy="100" r="60" fill="none" stroke="#ec4899" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <p>Kolams are constructed on dot grids, using mathematical principles of spacing and proportion.</p>
+                    </div>
+
+                    <div class="math-card">
+                        <h3>Symmetry</h3>
+                        <div class="math-visual">
+                            <svg viewBox="0 0 200 200" class="math-svg">
+                                <g class="symmetry-pattern">
+                                    <path d="M100,40 L160,100 L100,160 L40,100 Z" fill="none" stroke="#eab308" stroke-width="3"/>
+                                    <path d="M100,60 L140,100 L100,140 L60,100 Z" fill="none" stroke="#ec4899" stroke-width="2"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <p>Perfect rotational and reflective symmetry creates harmonious patterns that please the eye.</p>
+                    </div>
+
+                    <div class="math-card">
+                        <h3>Fractals</h3>
+                        <div class="math-visual">
+                            <svg viewBox="0 0 200 200" class="math-svg">
+                                <circle cx="100" cy="100" r="70" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <circle cx="100" cy="100" r="50" fill="none" stroke="#ec4899" stroke-width="2"/>
+                                <circle cx="100" cy="100" r="30" fill="none" stroke="#eab308" stroke-width="2"/>
+                                <circle cx="100" cy="100" r="10" fill="#ea580c"/>
+                            </svg>
+                        </div>
+                        <p>Self-similar patterns repeat at different scales, embodying fractal geometry principles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Section -->
+        <section class="technology-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Modern Technology</h2>
+                    <p class="section-subtitle">Digital Kolam Recognition</p>
+                </div>
+
+                <div class="tech-content">
+                    <div class="tech-text">
+                        <h3>Computer Vision & AI</h3>
+                        <p>Advanced algorithms can now identify, analyze, and recreate traditional Kolam patterns using machine learning and computer vision techniques.</p>
+                        
+                        <div class="code-block">
+                            <pre><code># Python code for Kolam pattern recognition
+import cv2
+import numpy as np
+
+def detect_kolam_pattern(image):
+    # Convert to grayscale
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    
+    # Detect contours
+    contours, _ = cv2.findContours(gray, 
+                                   cv2.RETR_EXTERNAL, 
+                                   cv2.CHAIN_APPROX_SIMPLE)
+    
+    # Analyze symmetry and patterns
+    return analyze_symmetry(contours)</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="tech-visual">
+                        <div class="tech-demo">
+                            <div class="demo-pattern">
+                                <svg viewBox="0 0 300 300" class="demo-svg">
+                                    <circle cx="150" cy="150" r="100" fill="none" stroke="#ea580c" stroke-width="3"/>
+                                    <circle cx="150" cy="150" r="70" fill="none" stroke="#ec4899" stroke-width="2"/>
+                                    <circle cx="150" cy="150" r="40" fill="none" stroke="#eab308" stroke-width="2"/>
+                                    <path d="M150,50 L250,150 L150,250 L50,150 Z" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <p class="demo-label">AI-Generated Kolam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Interactive Gallery</h2>
+                    <p class="section-subtitle">Explore Traditional Patterns</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-pattern="lotus">
+                        <svg viewBox="0 0 200 200" class="gallery-svg">
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="#ea580c" stroke-width="3"/>
+                            <path d="M100,20 Q140,60 100,100 Q60,60 100,20" fill="none" stroke="#ec4899" stroke-width="2"/>
+                            <path d="M180,100 Q140,140 100,100 Q140,60 180,100" fill="none" stroke="#ec4899" stroke-width="2"/>
+                            <path d="M100,180 Q60,140 100,100 Q140,140 100,180" fill="none" stroke="#ec4899" stroke-width="2"/>
+                            <path d="M20,100 Q60,60 100,100 Q60,140 20,100" fill="none" stroke="#ec4899" stroke-width="2"/>
+                        </svg>
+                        <h4>Lotus Pattern</h4>
+                    </div>
+
+                    <div class="gallery-item" data-pattern="star">
+                        <svg viewBox="0 0 200 200" class="gallery-svg">
+                            <path d="M100,20 L120,80 L180,80 L135,120 L155,180 L100,145 L45,180 L65,120 L20,80 L80,80 Z" 
+                                  fill="none" stroke="#eab308" stroke-width="3"/>
+                            <circle cx="100" cy="100" r="60" fill="none" stroke="#ec4899" stroke-width="2"/>
+                        </svg>
+                        <h4>Star Pattern</h4>
+                    </div>
+
+                    <div class="gallery-item" data-pattern="spiral">
+                        <svg viewBox="0 0 200 200" class="gallery-svg">
+                            <path d="M100,100 Q120,80 140,100 Q140,140 100,140 Q60,140 60,100 Q60,60 100,60 Q160,60 160,100 Q160,160 100,160" 
+                                  fill="none" stroke="#ea580c" stroke-width="3"/>
+                            <circle cx="100" cy="100" r="5" fill="#ec4899"/>
+                        </svg>
+                        <h4>Spiral Pattern</h4>
+                    </div>
+
+                    <div class="gallery-item" data-pattern="geometric">
+                        <svg viewBox="0 0 200 200" class="gallery-svg">
+                            <rect x="50" y="50" width="100" height="100" fill="none" stroke="#ec4899" stroke-width="3" transform="rotate(45 100 100)"/>
+                            <rect x="70" y="70" width="60" height="60" fill="none" stroke="#eab308" stroke-width="2" transform="rotate(45 100 100)"/>
+                            <circle cx="100" cy="100" r="20" fill="none" stroke="#ea580c" stroke-width="2"/>
+                        </svg>
+                        <h4>Geometric Pattern</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Kolam Art</h3>
+                        <p>Preserving traditional Indian geometric art through modern technology and cultural appreciation.</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Learn More</h4>
+                        <ul>
+                            <li><a href="#cultural">Cultural Heritage</a></li>
+                            <li><a href="#mathematics">Mathematics</a></li>
+                            <li><a href="#technology">Technology</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Twitter</a>
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Kolam Art. Celebrating the intersection of tradition and technology.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
